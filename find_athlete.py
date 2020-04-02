@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 import uuid
 import datetime
 
-DB_PATH = "sqlite:///Модуль B/B4. Работа с базами данных/Практическое задание/sochi_athletes.sqlite3"
+DB_PATH = "sqlite:///sochi_athletes.sqlite3"
 Base = declarative_base()
 
 class User(Base):
